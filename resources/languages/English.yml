@@ -87,6 +87,7 @@ minplayers_help: "&6use: &aminplayers &b[amount]"
 starttime_help: "&6use: &astarttime &b[seconds]"
 time_help: "&6use: &atime &b[true/day/night/TICKS]"
 enable_help: "&6use: &aenable &b[true/false]"
+
 ##################################
 # Battlegrounds Help Command Messages #
 ##################################
