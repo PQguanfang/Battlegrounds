@@ -6,10 +6,10 @@ use pocketmine\scheduler\Task;
 use pocketmine\tile\Sign;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-use Battlegrounds\Arena\arenas;
+use Battlegrounds\arenas\Arena;
 use pocketmine\math\Vector3;
 
-class ArenaSchedule extends Task{
+class ArenaScheduler extends Task {
     
     private $mainTime;
     private $time = 0;
@@ -18,14 +18,14 @@ class ArenaSchedule extends Task{
     private $ending = false;
     private $mins = 9;
     private $secs = 60;
-	private $gameStart = 10;
+    private $gameStart = 10;
     private $arenaResetTime = 5;
 	
     private $forcestart = false;
     
     private $arena;
     
-    #sign lines
+    # Sign Lines #
     private $level;
     private $line1;
     private $line2;
@@ -122,13 +122,15 @@ class ArenaSchedule extends Task{
 
 			if($this->gameStart >= 2){
 				foreach($this->arena->lobbyp as $p){
-					$p->addTitle(TextFormat::GREEN . "Prepare to Jump", TextFormat::RED . $this->gameStart, 20, 20, 20);
+					$p->addTitle(TextFormat::GREEN . "Prepare for your wings!", TextFormat::RED . $this->gameStart, 20, 20, 20);
+                                        $p->addSubtitle(TextFormat::WHITE . "Ready, players!");
 				}
 		    }
 			
 			if($this->gameStart == 1){
 				foreach($this->arena->lobbyp as $p){
-					$p->addTitle(TextFormat::GREEN . "Jump Now", "", 20, 20, 20);
+					$p->addTitle(TextFormat::GREEN . "The game has begins!", "", 20, 20, 20);
+                                        $p->addSubtitle(TextFormat::WHITE . "Fly to grounds!");
 				}
 		    }
 			
@@ -169,7 +171,7 @@ class ArenaSchedule extends Task{
             if($this->mainTime === 0){
  
                     foreach($this->arena->ingamep as $p){                      
-						$p->addTitle("NO WINNERS", "", 20, 40, 20);
+						$p->addTitle(TextFormat::AQUA. "Oops, time's up! I think there are no winners!", "", 20, 40, 20);
                     }
                 $this->arena->stopGame();
                
