@@ -1,0 +1,50 @@
+name: BattleGround
+version: BG-1.1
+api: [3.0.0-ALPHA12]
+main: BattleGround\BattleGround
+author: ImpladeDeveloped
+/** Allies: Zadezter, MrLukePotatoes **/
+
+commands:
+    bg:
+        description: "Battlegrounds commands!"
+
+permissions:
+    bg.plugin:
+        description: "Main permission of Battlegrounds!"
+        default: op
+        children:
+            bg.command:
+                description: "Main permission commands!"
+                default: op
+                children:
+                    bg.command.help:
+                        description: "Battlegrounds commands help permission!"
+                        default: true
+                    bg.command.join:
+                        description: "Join the Battlegrounds arena permission!"
+                        default: true
+                    bg.command.leave:
+                        description: "Leave the Battlrgrounds arena permission!"
+                        default: true
+                    bg.command.start:
+                        description: "Start the Battlegrounds game!"
+                        default: op
+                    bg.command.stop:
+                        description: "Stop the Battlegrounds game!"
+                        default: op
+                    bg.command.kick:
+                        description: "Kick player from the Battlegrounds arena!"
+                        default: op
+                    bg.command.lobby:
+                        description: "Send player to Battlegrounds lobby!"
+                        default: true
+                    bg.command.set:
+                        description: "Allow OP player to edit the arena!"
+                        default: op
+            bg.sign:
+                description: "Join the Battlegrounds arena using signs!"
+                default: true
+            bg.access:
+                description: "Allow player to play the Battlegrounds game!"
+                default: true
