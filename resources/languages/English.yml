@@ -1,32 +1,32 @@
 ##### ## ####
 # Battlegrounds Configurations
 # Made by ImpladeDeveloped
-# English Language was made by Zadezter
+# English Language was made by Zadezter and Grammar fixed by MrLukePotatoes
 ##### ## ####
 ---
 join: "&bWelcome to the Battlegrounds game! &eIt's time for you to shoot and survive!"
 join_others: "%1 &bjoined the game!"
 leave: "Leaving arena..."
 leave_others: "%1 §cleft the Battlegrounds game!"
-arena_doesnt_exist: "&cThese arena doesn't not exist!"
-arena_already_exist: "&cThese arena already exist!"
-arena_create: "&eArena shas successfully created!"
-start_game: "&l&eThe game has started! Be focus on shooting enemies!"
-death: "&c%1 has eliminated! &f%2 more alive players left!"
+arena_doesnt_exist: "&cThe arena doesn't not exist!"
+arena_already_exist: "&cThe arena already exist!"
+arena_create: "&eArena shas been successfully created!"
+start_game: "&l&eThe game has started! Focus on shooting enemies!"
+death: "&c%1 has been eliminated! &f%2 more alive players left!"
 send_to_main_world: "&eReturning back to lobby..."
-starting: "&aThis game will starts in §f%1 §aseconds....."
+starting: "&aThe game will start in §f%1 §aseconds....."
 kick_from_game: "&cYou have been kicked from Battlegrounds game for %1"
-game_full: "&cThis game is currently full of players!"
+game_full: "&cThis game is currently full!"
 ingame: "&cThis game is currently running!"
-enable_setup_mode: "&6You are now in Battleground setup mode!\n&a-> To leave a game, type using &l&o'done'"
-disable_setup_mode: '&aThis arena is saved!'
-arena_in_setup: "&cThis arena is on setup mode!"
+enable_setup_mode: "&6You are now in Battleground setup mode!\n&a-> To leave the game, type using &l&o'done'"
+disable_setup_mode: '&aThe arena is saved!'
+arena_in_setup: "&cThe arena is on setup mode!"
 #reward for win
-get_money: "&aYou have won %1 money!"
+get_money: "&aYou got %1 money!"
 #end game message
 #create new line using "\n"
 end_game: "&a1. %2"
-not_enough_players: "&cPlayer isn't enough on game!"
+not_enough_players: "&cWe need more players!"
 
 ###################
 # Commands Messages
@@ -48,7 +48,7 @@ setlobby_help: "&6use: &asetlobby"
 arena_running: "&cArena is running now"
 use_cmd_in_game: "&6You can use this only in-game"
 arena_not_running: "&6Arena is not running!"
-player_not_exist: "&cPlayer is not in Battlegrounds game!"
+player_not_exist: "&cPlayer is not in the Battlegrounds game!"
 
 ##########################
 # Done Setup Mode Messages #
@@ -93,10 +93,10 @@ enable_help: "&6use: &aenable &b[true/false]"
 ##################################
 lobby: "\n- &2/bg lobby &l&5»&r&f Teleport to lobby"
 onleave: "\n- &2/bg leave &l&5»&r&f Leave the arena"
-onjoin: "\n- &2/bg join &b[arena name] &l&5»&r&f Join to the Arena"
-start: "\n- &2/bg start &b[arena name] &l&5»&r&f Force start the arena"
-stop: "\n- &2/bg stop &b[arena name] &l&5»&r&f Force stop the arena"
-kick: "\n- &2/bg kick &b[arena name] [player name] [reason] &l&5»&r&f Kick player from arena"
+onjoin: "\n- &2/bg join &b[arena name] &l&5»&r&f Join the Arena"
+start: "\n- &2/bg start &b[arena name] &l&5»&r&f Force starts the arena"
+stop: "\n- &2/bg stop &b[arena name] &l&5»&r&f Force stops the arena"
+kick: "\n- &2/bg kick &b[arena name] [player name] [reason] &l&5»&r&f Kick the player from arena"
 set: "\n- &2/bg set &b[arena name] &l&5»&r&f Set or modify arena"
 delete: "\n- &2/bg delete &b[arena name] &l&5»&r&f Delete existing arena"
 create: "\n- &2/bg create &b[arena name] &l&5»&r&f Create new arena"
@@ -124,5 +124,5 @@ help_minplayers: "\n- &2minplayers &b[count] &l&5»&r&f Set players minimal coun
 ######################
 # Other setup messages #
 ######################
-break_block: "&aNow break a block"
-break_sign: "&aNow break a sign"
+break_block: "&aBreak a block"
+break_sign: "&aBreak a sign"
