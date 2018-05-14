@@ -3,7 +3,7 @@ version: BG-1.1
 api: [3.0.0-ALPHA12]
 main: BattleGround\BattleGround
 author: ImpladeDeveloped
-/** Allies: Zadezter, MrLukePotatoes **/
+/** Allies- Zadezter, MrLukePotatoes **/
 
 commands:
     bg:
