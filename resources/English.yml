@@ -1,0 +1,127 @@
+##### ## ####
+# Battlegrounds Configurations
+# Made by ImpladeDeveloped
+# English Language was made by Zadezter
+##### ## ####
+---
+join: "&bWelcome to the Battlegrounds game! &eIt's time for you to shoot and survive!"
+join_others: "%1 &bjoined the game!"
+leave: "Leaving arena..."
+leave_others: "%1 §cleft the Battlegrounds game!"
+arena_doesnt_exist: "&cThese arena doesn't not exist!"
+arena_already_exist: "&cThese arena already exist!"
+arena_create: "&eArena shas successfully created!"
+start_game: "&l&eThe game has started! Be focus on shooting enemies!"
+death: "&c%1 has eliminated! &f%2 more alive players left!"
+send_to_main_world: "&eReturning back to lobby..."
+starting: "&aThis game will starts in §f%1 §aseconds....."
+kick_from_game: "&cYou have been kicked from Battlegrounds game for %1"
+game_full: "&cThis game is currently full of players!"
+ingame: "&cThis game is currently running!"
+enable_setup_mode: "&6You are now in Battleground setup mode!\n&a-> To leave a game, type using &l&o'done'"
+disable_setup_mode: '&aThis arena is saved!'
+arena_in_setup: "&cThis arena is on setup mode!"
+#reward for win
+get_money: "&aYou have won %1 money!"
+#end game message
+#create new line using "\n"
+end_game: "&a1. %2"
+not_enough_players: "&cPlayer isn't enough on game!"
+
+###################
+# Commands Messages
+###################
+has_not_permission: "&cYou do not have permission to use this command!"
+
+# Invalid Arguments on Setup Mode #
+invalid_arguments: "&cInvalid Arguments!\n&6Type: &a&o&lhelp"
+help: "&6use /bg help"
+join_help: "&6use /bg join &a[arena name]"
+leave_help: "&6use /bg leave &a[arena name]"
+start_help: "&6use /bg start &a[arena name]"
+stop_help: "&6use /bg stop &a[arena name]"
+kick_help: "&6use /bg kick &a[arena name] [player name]"
+set_help: "&6use /bg set &a[arena name]"
+create_help: "&6use /bg create &a[arena name]"
+delete_help: "&6use /bg delete &a[arena name]"
+setlobby_help: "&6use: &asetlobby"
+arena_running: "&cArena is running now"
+use_cmd_in_game: "&6You can use this only in-game"
+arena_not_running: "&6Arena is not running!"
+player_not_exist: "&cPlayer is not in Battlegrounds game!"
+
+##########################
+# Done Setup Mode Messages #
+##########################
+joinsign: "&aJoin sign has been successfully updated"
+returnsign: "&aLeave sign has been successfully updated"
+startpos: "&aStart position has been successfully updated"
+lobbypos: "&aLobby position has been successfully updated"
+spectatorspawn: "&aSpectator spawn has been successfully updated"
+leavepos: "&aLeave position has been successfully updated"
+mainlobby: "&aMain lobby position has been successfully updated"
+statusline: "&aSign line has been successfully updated"
+type: "&aArena type has been successfully updated"
+allowstatus: "&aStatus sign has been successfully updated"
+signupdatetime: "&aSign update interval has been successfully updated"
+world: "&aArena world has been successfully updated"
+allowspectator: "&aSpectator mode has been successfully updated"
+maxtime: "&aGame max time has been successfully updated"
+maxplayers: "&aMax players count has been successfully updated"
+minplayers: "&aMin players count has been successfully updated"
+starttime: "&aStart time has been successfully updated"
+time: "&aArena time has been successfully updated"
+enable: "&aArena has been successfully updated"
+
+########################################
+# Message Commands While On Setup Mode #
+########################################
+statusline_help: "&6use: &astatusline &b[line] [text]"
+allowstatus_help: "&6use: &aallowstatus &b[true/false]"
+signupdatetime_help: "&6use: &asignupdatetime &b[seconds]"
+world_help: "&6use: &aworld &b[world name]"
+allowspectator_help: "&6use: &aallowspectator &b[true/false]"
+maxtime_help: "&6use: &amaxtime &b[seconds]"
+maxplayers_help: "&6use: &amaxplayers &b[amount]"
+minplayers_help: "&6use: &aminplayers &b[amount]"
+starttime_help: "&6use: &astarttime &b[seconds]"
+time_help: "&6use: &atime &b[true/day/night/TICKS]"
+enable_help: "&6use: &aenable &b[true/false]"
+##################################
+# Battlegrounds Help Command Messages #
+##################################
+lobby: "\n- &2/bg lobby &l&5»&r&f Teleport to lobby"
+onleave: "\n- &2/bg leave &l&5»&r&f Leave the arena"
+onjoin: "\n- &2/bg join &b[arena name] &l&5»&r&f Join to the Arena"
+start: "\n- &2/bg start &b[arena name] &l&5»&r&f Force start the arena"
+stop: "\n- &2/bg stop &b[arena name] &l&5»&r&f Force stop the arena"
+kick: "\n- &2/bg kick &b[arena name] [player name] [reason] &l&5»&r&f Kick player from arena"
+set: "\n- &2/bg set &b[arena name] &l&5»&r&f Set or modify arena"
+delete: "\n- &2/bg delete &b[arena name] &l&5»&r&f Delete existing arena"
+create: "\n- &2/bg create &b[arena name] &l&5»&r&f Create new arena"
+
+########################################
+# Arena Setup + Command Messages
+########################################
+help_joinsign: "\n- &2joinsign &l&5»&r&f Set join sign position"
+help_returnsign: "\n- &2returnsign &l&5»&r&f Set leave sign position"
+help_startpos: "\n- &2startpos &l&5»&r&f Set start game position"
+help_lobbypos: "\n- &2lobbypos &l&5»&r&f Set lobby position"
+help_spectatorspawn: "\n- &2spectatorspawn &l&5»&r&f Set spectator spawn"
+help_leavepos: "\n- &2leavepos &l&5»&r&f Set leave position"
+help_time: "\n- &2time &b[true/day/night/ticks] &l&5»&r&f Set time in arena"
+help_type: "\n- &2type &b[classic/furious/stoned] &l&5»&r&f Set arena type"
+help_allowstatus: "\n- &2allowstatus &b[true/false] &l&5»&r&f Enable/disable status on join sign"
+help_world: "\n- &2world &b[world name] &l&5»&r&f Set arena world"
+help_statusline: "\n- &2statusline &b[line (1-4)] [text] &l&5»&r&f Set status sign line"
+help_allowspectator: "\n- &2allowspectator &b[true/false] &l&5»&r&f Enable/Disable spectator mode"
+help_signupdatetime: "\n- &2signupdatetime &b[seconds] &l&5»&r&f Set sign update interval"
+help_maxtime: "\n- &2maxtime &b[seconds] &l&5»&r&f Set max game time"
+help_maxplayers: "\n- &2maxplayers &b[count] &l&5»&r&f Set max players in game"
+help_minplayers: "\n- &2minplayers &b[count] &l&5»&r&f Set players minimal count required to start the game"
+
+######################
+# Other setup messages #
+######################
+break_block: "&aNow break a block"
+break_sign: "&aNow break a sign"
