@@ -10,7 +10,7 @@ class ConfigManager{
     private $plugin;
     private $arena;
     
-    public function __construct($id, Battlegrounds $plugin) {
+    public function __construct($id, MainBG $plugin) {
         $this->id = $id;
         $this->plugin = $plugin;
         $this->arena = new Config($this->plugin->getDataFolder()."arenas/$id.yml", Config::YAML);
