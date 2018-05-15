@@ -1,7 +1,7 @@
-name: BattleGround
+name: Battlegrounds
 version: BG-1.1
 api: [3.0.0-ALPHA12]
-main: BattleGround\BattleGround
+main: Battlegrounds\Battlegrounds
 author: ImpladeDeveloped
 /** Allies- Zadezter, MrLukePotatoes **/
 
