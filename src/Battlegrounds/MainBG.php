@@ -22,7 +22,7 @@ use pocketmine\plugin\Plugin;
 
 use Battlegrounds\arenas\Arena; 
 
-class Battlegrounds extends PluginBase implements Listener { 
+class MainBG extends PluginBase implements Listener { 
 	
               public $cfg; 
               public $msg; 
