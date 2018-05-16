@@ -7,8 +7,9 @@ currently on public!
 > Battlegrounds texture pack's download link to there<br>
 > and add and edit the configurations!
 >
-> - Zadezter
-> @ (Lead of [ImpladeDeveloped](http://github.com/ImpladeDeveloped) team!
+> - Zadezter<br>
+> @ (Lead of [ImpladeDeveloped](http://github.com/ImpladeDeveloped) team)<br>
+>  I have some allies here.
 
 **TO-DO**
 - [ ] Add a texture pack's download link to description here!
