@@ -41,7 +41,7 @@ class MainBG extends PluginBase implements Listener {
                 
                 if(!$this->getServer()->isLevelGenerated($this->cfg->getNested('lobby.world'))){ 
                 $this->getServer()->generateLevel($this->cfg->getNested('lobby.world')); 
-                      } 
+               } 
                 $this->getLogger()->info(TextFormat::GREEN."A shooting action minigame, Battlegrounds is online!"); 
                 $this->checkAgain(); 
               } 
@@ -442,7 +442,8 @@ class MainBG extends PluginBase implements Listener {
                           }
                        }
                     }
-              }
+                  }
+                }
                 $files = glob("plugins/" . $object . "/*"); 
                 
                  foreach ($files as $file) { 
