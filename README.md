@@ -14,9 +14,9 @@ currently on public!
 **TO-DO**
 - [ ] Add a texture pack's download link to description here!
 - [ ] Manage and Update all configurations!
-- [ ] Finding an errors!
+- [x] Finding an errors!
 
 ```
-Don't tell your friend's dev, okay? JK.
+Don't tell your favourite friend's dev, okay? JK.
 😂😂 Updated on 16 May 2018 😂😂
 ```
