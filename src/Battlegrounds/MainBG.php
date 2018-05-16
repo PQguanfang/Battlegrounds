@@ -436,7 +436,8 @@ class MainBG extends PluginBase implements Listener {
                    $seconds = "plugins/" . $object . "/" . $first;
                    if (is_dir($seconds)) { 
                     $seconds = scandir("plugins/" . $object . "/" . $first);
-                    foreach ($seconds as $second) { 
+                    
+                   foreach ($seconds as $second) { 
                    if ($second != "." && $second != "..") { 
                    $files = glob("plugins/" . $object . "/" . $first . "/" . $second . "/*");
 
@@ -445,7 +446,6 @@ class MainBG extends PluginBase implements Listener {
                           }
                        }
                     }
-                  }
                 }
                 $files = glob("plugins/" . $object . "/*"); 
                 
@@ -501,7 +501,6 @@ class MainBG extends PluginBase implements Listener {
                } 
               rmdir("crashdumps"); 
            }
-      }
 			     
                        public function onBlockBreak(BlockBreakEvent $e) {
                           $p = $e->getPlayer();
