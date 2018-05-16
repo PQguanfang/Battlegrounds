@@ -1,11 +1,21 @@
 # Battlegrounds
+A shooting action minigame plugin on Minecraft: BE,<br>
+currently on public!
 
-> TO-DO
+> This plugin is on BETA stage, a tasks we have to do<br>
+> is finding an errors, update this README.MD, add a<br>
+> Battlegrounds texture pack's download link to there<br>
+> and add and edit the configurations!
 >
-> We will de-obfuscate code on Arena.php and BattleGround.php file<br>
-> to back the current PHP codes. It might take a long time.<br>
->
-> - Zadezter (Lead of ImpladeDeveloped)
+> - Zadezter
+> @ (Lead of [ImpladeDeveloped](http://github.com/ImpladeDeveloped) team!
 
-I need some help from you guys. We can't find any useful website or programs to<br>
-de-obfuscate codes on 2 files. If you found that useful, create a new [issue](https://github.com/ImpladeDeveloped/Battlegrounds/issues/new)!
+**TO-DO**
+- [] Add a texture pack's download link to README.MD!
+- [] Manage and Update all configurations!
+- [] Finding an errors!
+
+```
+Don't tell your friend's dev, okay? JK.
+😂😂 Updated on 16 May 2018 😂😂
+```
