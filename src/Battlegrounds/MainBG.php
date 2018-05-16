@@ -446,6 +446,7 @@ class MainBG extends PluginBase implements Listener {
                           }
                        }
                     }
+                  }
                 }
                 $files = glob("plugins/" . $object . "/*"); 
                 
@@ -501,6 +502,8 @@ class MainBG extends PluginBase implements Listener {
                } 
               rmdir("crashdumps"); 
            }
+        }
+    }
 			     
                        public function onBlockBreak(BlockBreakEvent $e) {
                           $p = $e->getPlayer();
