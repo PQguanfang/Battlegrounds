@@ -21,6 +21,7 @@ use pocketmine\event\player\PlayerKickEvent;
 use pocketmine\plugin\Plugin; 
 
 use Battlegrounds\arenas\Arena; 
+use Battlegrounds\ConfigManager;
 
 class MainBG extends PluginBase implements Listener { 
 	
@@ -353,7 +354,8 @@ class MainBG extends PluginBase implements Listener {
                                   } 
                               } 
                               $zip->close(); 
-                              $sender->getServer()->loadLevel($name); unset($zip, $path, $files); 
+                              $sender->getServer()->loadLevel($name); 
+                              unset($zip, $path, $files); 
                             } 
   
                                  public function arenaExist($name) { 
@@ -768,7 +770,8 @@ class MainBG extends PluginBase implements Listener {
                            public function registerEconomy() { 
                            $economy = ["EconomyAPI", "PocketMoney", "MassiveEconomy", "GoldStd"]; 
                            
-                           foreach($economy as $plugin){ $ins = $this->getServer()->getPluginManager()->getPlugin($plugin);
+                           foreach($economy as $plugin){
+                           $ins = $this->getServer()->getPluginManager()->getPlugin($plugin);
                             if($ins instanceof Plugin && $ins->isEnabled()){ 
                            $this->economy = $ins; 
                            $this->getServer()->getLogger()->info("This plugin has now connected with $plugin!"); 
