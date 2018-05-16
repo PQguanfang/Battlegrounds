@@ -388,7 +388,8 @@ class MainBG extends PluginBase implements Listener {
                          	
                         foreach($this->inv as $slot => $i){ 
                         list($id, $dmg, $count) = explode(":", $i); 
-                        $item = Item::get($id, $dmg, $count); $p->getInventory()->setItem($slot, $item); 
+                        $item = Item::get($id, $dmg, $count); 
+			$p->getInventory()->setItem($slot, $item); 
                         unset($this->plugin->inv[strtolower($p->getName())]); 
                        } 
                      } 
