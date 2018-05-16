@@ -11,9 +11,9 @@ currently on public!
 > @ (Lead of [ImpladeDeveloped](http://github.com/ImpladeDeveloped) team!
 
 **TO-DO**
-- [] Add a texture pack's download link to README.MD!
-- [] Manage and Update all configurations!
-- [] Finding an errors!
+- [ ] Add a texture pack's download link to description here!
+- [ ] Manage and Update all configurations!
+- [ ] Finding an errors!
 
 ```
 Don't tell your friend's dev, okay? JK.
