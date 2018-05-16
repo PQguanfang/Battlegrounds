@@ -3,6 +3,7 @@
 namespace BattleGround\Arena; 
 
 use Battlegrounds\MainBG; 
+use Battlegrounds\arenas\ArenaScheduler;
 
 use pocketmine\Player; 
 use pocketmine\event\Listener; 
@@ -51,7 +52,8 @@ class Arena implements Listener {
           public $spec = []; 
           public $magneticFieldX = 150; 
           public $magneticFieldZ = 150; 
-          public $game = 0; public $arenaReset = 0; 
+          public $game = 0; 
+          public $arenaReset = 0; 
           public $winners = []; 
           public $deads = []; 
           public $setup = false; 
@@ -64,7 +66,8 @@ class Arena implements Listener {
               
               if(strtolower($this->data['arena']['time'] !== "true")){ 
               $this->plugin->getServer()->getLevelByName($this->data['arena']['arena_world'])->setTime(str_replace(['day', 'night'], [6000, 18000], $this->data['arena']['time'])); 
-              $this->plugin->getServer()->getLevelByName($this->data['arena']['arena_world'])->stopTime(); } } public function enableScheduler(){ $this->plugin->getServer()->getScheduler()->scheduleRepeatingTask(new ArenaScheduler($this), 20); 
+              $this->plugin->getServer()->getLevelByName($this->data['arena']['arena_world'])->stopTime(); } } public function enableScheduler(){ 
+              $this->plugin->getServer()->getScheduler()->scheduleRepeatingTask(new ArenaScheduler($this), 20); 
            } 
 
               public function tapJoinSign(PlayerInteractEvent $e) { 
