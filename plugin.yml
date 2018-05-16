@@ -2,8 +2,7 @@ name: Battlegrounds
 version: BG-1.1
 api: [3.0.0-ALPHA12]
 main: Battlegrounds\MainBG
-author: ImpladeDeveloped
-/** Allies- Zadezter, MrLukePotatoes **/
+author: Zadezter(Leader), ImpladeDeveloped(Team), MrLukePotatoes(2nd-Leader)
 
 commands:
     bg:
