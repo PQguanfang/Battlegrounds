@@ -1,6 +1,6 @@
 <?php 
 
-namespace BattleGround\Arena; 
+namespace Battlegrounds\arenas; 
 
 use Battlegrounds\MainBG; 
 use Battlegrounds\arenas\ArenaScheduler;
