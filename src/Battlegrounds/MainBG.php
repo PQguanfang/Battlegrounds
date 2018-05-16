@@ -617,7 +617,10 @@ class MainBG extends PluginBase implements Listener {
             $p->sendMessage($help); 
             return; 
           } 
-                     $p->sendMessage($this->getPrefix()."§6Usage: §ahelp §b[page 1-3]"); return; } $p->sendMessage("§9--- §6§lSetup Help§l 1/3§9 ---§r§f".$help1); 
+                     $p->sendMessage($this->getPrefix()."§6Usage: §ahelp §b[page 1-3]"); 
+		     return; 
+	            } 
+		      $p->sendMessage("§9--- §6§lSetup Help§l 1/3§9 ---§r§f".$help1); 
                      return; 
                    }
                  } 
@@ -687,7 +690,8 @@ class MainBG extends PluginBase implements Listener {
                  $arena->setMinPlayers(substr($msg, 11)); 
                  $p->sendMessage($this->getPrefix().$this->getMsg('minplayers'));
               } elseif(strpos($msg, 'starttime') === 0){ 
-                 if(!is_numeric(substr($msg, 10))){ $p->sendMessage($this->getPrefix().$this->getMsg('starttime_help')); 
+                 if(!is_numeric(substr($msg, 10))){ 
+                 $p->sendMessage($this->getPrefix().$this->getMsg('starttime_help')); 
                 return; 
              } 
                 $arena->setStartTime(substr($msg, 10));
